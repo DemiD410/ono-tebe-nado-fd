@@ -28,11 +28,9 @@
 }
 
 .header__link {
-  border-bottom: 1px solid;
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
-  text-decoration: none;
 }
 
 .header__logo {
@@ -51,11 +49,9 @@
 }
 
 .address__link {
-  border-bottom: 1px solid;
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
-  text-decoration: none;
 }
 
 .header__address {
@@ -225,11 +221,9 @@
 
 .lots__look-more-link {
   margin-left: 40px;
-  border-bottom: 1px solid;
   font-weight: 400;
   font-size: 20px;
   line-height: 23.48px;
-  text-decoration: none;
 }
 
 /* Начало блока About */
@@ -298,11 +292,9 @@
 }
 
 .footer__menu-link {
-  border-bottom: 1px solid;
   font-weight: 400;
   font-size: 18px;
   line-height: 21.13px;
-  text-decoration: none;
 }
 
 .footer__menu-link_active {
