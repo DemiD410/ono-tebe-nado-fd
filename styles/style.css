@@ -1,4 +1,4 @@
-/* Начало блока Header */
+/* Начало Header */
 
 .header {
   display: grid;
@@ -59,7 +59,7 @@
   max-width: 240px;
 }
 
-/* Начало блока Cover */
+/* Начало Cover */
 
 .cover {
   position: relative;
@@ -139,7 +139,7 @@
   background-color: transparent;
 }
 
-/* Начало блока Lots */
+/* Начало Lots */
 
 .lots {
   margin: 180px 24px 0;
@@ -226,7 +226,7 @@
   line-height: 23.48px;
 }
 
-/* Начало блока About */
+/* Начало About */
 
 .about {
   display: grid;
@@ -274,7 +274,7 @@
   line-height: 24px;
 }
 
-/* Начало блока Footer */
+/* Начало Footer */
 
 .footer {
   display: grid;
