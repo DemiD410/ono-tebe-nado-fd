@@ -3,9 +3,8 @@
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  grid-template-rows: 293px;
   align-items: center;
-  padding: 0 50px;
+  padding: 91px 50px;
 }
 
 .header__links-list {
@@ -66,7 +65,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 757px;
   background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -82,11 +80,12 @@
 
 .cover__title {
   z-index: 1;
-  padding: 155px 50px 47px;
+  padding: 155px 50px 48px;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
   line-height: 135px;
+  text-transform: uppercase;
 }
 
 .aligned-text {
@@ -157,7 +156,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  margin: 27px 0 30px;
+  margin: 27px 0 33px;
   list-style: none;
 }
 
@@ -177,27 +176,21 @@
   width: 334px;
   min-height: 596px;
   padding: 50px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .card_type_film {
   background-image: url("../images/card-lot-01.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_book {
   background-image: url("../images/card-lot-02.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url("../images/card-lot-03.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .card__title {
@@ -232,7 +225,7 @@
   display: grid;
   grid-template-columns: 335px 1fr;
   justify-items: center;
-  margin: 155px 24px;
+  margin: 152px 24px;
 }
 
 .about__column {
@@ -255,7 +248,7 @@
 }
 
 .about__title {
-  padding: 100px 0;
+  padding: 101px 0;
   font-weight: 700;
   font-size: 40px;
   line-height: 46.96px;
@@ -279,7 +272,6 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 180px;
   justify-content: space-between;
   margin: 180px 50px 0;
 }
